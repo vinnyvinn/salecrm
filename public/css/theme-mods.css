@@ -1,0 +1,8 @@
+li.active-tab {
+	background:#545A6A;
+}
+
+li.active-tab a {
+	color:white !important;
+	font-weight: bold;
+}
