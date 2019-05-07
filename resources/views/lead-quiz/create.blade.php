@@ -27,7 +27,7 @@
                         <div class="row">
                             <div class="col-12">
                                 <form action="{{ route('qualification-questions.store') }}" method="post">
-                                    @csrf
+                                    {{csrf_field()}}
                                     <div class="card">
                                         <div class="card-header">
                                             <h5>Create Questionnaire</h5>

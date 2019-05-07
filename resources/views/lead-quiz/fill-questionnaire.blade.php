@@ -28,7 +28,7 @@
                         <div class="row">
                             <div class="col-12">
                                 <form action="{{ url('store-lead/'.$lead->id.'/questionnaire') }}" method="post">
-                                    @csrf
+                                    {{csrf_field()}}
                                     <div class="card">
                                         <div class="card-header">
                                             <h5>Fill Questionnaire For {{ ucwords($lead->name) }}</h5>

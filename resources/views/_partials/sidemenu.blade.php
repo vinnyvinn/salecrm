@@ -1,7 +1,7 @@
 <nav class="pcoded-navbar">
     <div class="nav-list">
         <div class="pcoded-inner-navbar main-menu">
-            <div class="pcoded-navigation-label">Navigation</div>
+            <div class="pcoded-navigation-label"></div>
             <ul class="pcoded-item pcoded-left-item">
                 <li class="{{ request()->segment(1) == 'dashboard' ? 'active pcoded-trigger' : '' }}">
                     <a href="{{ url('dashboard') }}" class="waves-effect waves-dark">

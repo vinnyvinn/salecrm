@@ -45,7 +45,7 @@
                         <div class="navbar-wrapper">
                             <div class="navbar-logo">
                                 <a href="{{url('/')}}">
-                                    <img class="img-fluid" src="/dashable/assets/images/logo.png" alt="Theme-Logo" />
+                                    <img class="img-fluid" src="/dashable/assets/images/wizlogo.png" alt="Theme-Logo" width="100px" height="100px" />
                                 </a>
                                 <a class="mobile-menu" id="mobile-collapse" href="index.html#!">
                                     <i class="feather icon-menu"></i>
@@ -127,7 +127,7 @@
                                                         <i class="feather icon-log-out"></i> Logout
                                                     </a>
                                                     <form method="post" action="{{ route('logout') }}" id="logoutForm">
-                                                        @csrf
+                                                        {{ csrf_field() }}
                                                     </form>
                                                 </li>
                                             </ul>
