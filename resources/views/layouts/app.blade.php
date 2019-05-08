@@ -118,7 +118,7 @@
                                                     <span>{{ auth()->user()->name }}</span>
                                                 </li>
                                                 <li>
-                                                    <a href="index.html#!">
+                                                    <a href="#">
                                                         <i class="feather icon-settings"></i> Settings
                                                     </a>
                                                 </li>
